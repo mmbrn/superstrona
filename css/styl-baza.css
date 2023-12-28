@@ -1,0 +1,75 @@
+html, body {
+    margin:0px;
+    padding: 0;
+    height:100%;
+    background-image: url("images/tlo.png");
+    background-repeat: repeat;
+}
+
+.strona-glowna {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.panel-gorny {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-glowny {
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.panel-boczny {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.zawartosc-glowna {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.stopka {
+    background-color: black;
+    color: white;
+    height: 6%;
+    display: flex;
+    flex-direction: row;
+}
+
+.stopka-lewo {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.stopka-prawo {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

@@ -1,0 +1,99 @@
+.latajec-boczny {
+    background-color: lightgray;
+    text-align: center;
+    width: 50%;
+    height: 90.5%;
+    padding: 10%;
+    border-style: outset;
+    position: relative;
+}
+
+.linki {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 90%;
+}
+
+.linki a {
+    text-decoration: dotted;
+    color: black;
+    background-color: lightgray;
+    border-style: outset;
+    font-size: 80%;
+    padding: 1rem 0;
+}
+
+.linki a:hover {
+    background-color: gray;
+}
+
+.linki a:active {
+    border-style: inset;
+}
+
+.guzior {
+    height: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.guzior button {
+    text-decoration: dotted;
+    background-color: lightgray;
+    height: 100px;
+    border-color: gray;
+}
+
+.guzior button:hover {
+    background-color: gray;
+}
+
+
+.latajec-gorny {
+    background-color: lightgray;
+    text-align: center;
+    width: 97%;
+    height: 80%;
+    border-style: outset;
+    font-size: 2rem;
+}
+
+.latajec-gorny p {
+    margin: 1rem;
+}
+
+.latajec-glowny {
+    background-color: lightgray;
+    width: 98%;
+    height: 95%;
+    margin-right: 1.5%;
+    border-style: outset;
+}
+
+.latajec-glowny table, .latajec-glowny th, .latajec-glowny td {
+    border: 1px solid;
+}
+
+.latajec-glowny input {
+    width: 80px;
+    background-color: darkgray;
+    border-style: inset;
+    --moz-appearance: textfield;
+}
+
+.stopka p, .stopka a {
+    background-color: lightgray;
+    border-style: outset;
+    margin: 10px;
+    padding: 5px;
+    color: black;
+    font-style: italic;
+    text-shadow: 5px 5px 3px gray;
+}
+
+.stopka-prawo img {
+    margin: 10px;
+}
